@@ -27,7 +27,7 @@ We are using argparse library to create an argument parser. We can directly give
 ## 2.	Next, we read the CSV file with pandas
 The pandas library is very useful when we need to perform various operations on data files like CSV. pd.read_csv() reads the CSV file and loads it into the pandas DataFrame. We have assigned each column with a name for easy accessing.
 
-##3.	Set a mouse callback event on a window
+## 3.	Set a mouse callback event on a window
 First, we created a window in which the input image will display. 
 Then, we set a callback function which will be called when a mouse event happens. 
 With these lines, we named our window as ‘image’ and set a callback function which will call the draw_function() whenever a mouse event occurs.
@@ -41,7 +41,7 @@ In the function, we check if the event is double-clicked then we calculate and s
 We have the r,g and b values. Now, we need another function which will return us the color name from RGB values. 
 To get the color name, we calculate a distance(d) which tells us how close we are to color and choose the one having minimum distance.
 Our distance is calculated by this formula:
-## d = abs(Red – ithRedColor) + (Green – ithGreenColor) + (Blue – ithBlueColor)
+### d = abs(Red – ithRedColor) + (Green – ithGreenColor) + (Blue – ithBlueColor)
 
 ## 6.	Display image on the window
 Whenever a double click event occurs, it will update the color name and RGB values on the window.
